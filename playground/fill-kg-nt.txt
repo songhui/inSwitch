@@ -1,0 +1,632 @@
+PREFIX ds: <https://vocab.sti2.at/ds/>
+PREFIX schema: <https://schema.org/>
+PREFIX intend: <https://intendproject.eu/schema/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+<MA-005697> <schema:name> "MA-005697".
+<MA-005697> <rdf:type> <intend:Active_Machine>.
+<MA-005697> <intend:is_machine_type> <C21>.
+<MA-005697> <intend:has_IP> <10.4.200.001>.
+
+<MA-005934> <schema:name> "MA-005934".
+<MA-005934> <rdf:type> <intend:Active_Machine>.
+<MA-005934> <intend:is_machine_type> <Q>.
+<MA-005934> <intend:has_IP> <10.4.200.002>.
+
+<MA-005699> <schema:name> "MA-005699".
+<MA-005699> <rdf:type> <intend:Active_Machine>.
+<MA-005699> <intend:is_machine_type> <C22>.
+<MA-005699> <intend:has_IP> <192.168.10.001>.
+
+<MA-005700> <schema:name> "MA-005700".
+<MA-005700> <rdf:type> <intend:Active_Machine>.
+<MA-005700> <intend:is_machine_type> <C22>.
+<MA-005700> <intend:has_IP> <192.168.10.002>.
+
+<MA-005522> <schema:name> "MA-005522".
+<MA-005522> <rdf:type> <intend:Active_Machine>.
+<MA-005522> <intend:is_machine_type> <C21>.
+<MA-005522> <intend:has_IP> <10.2.45.01>.
+
+<MA-006418> <schema:name> "MA-006418".
+<MA-006418> <rdf:type> <intend:Active_Machine>.
+<MA-006418> <intend:is_machine_type> <Q>.
+<MA-006418> <intend:has_IP> <10.2.45.02>.
+
+<MA-006422> <schema:name> "MA-006422".
+<MA-006422> <rdf:type> <intend:Active_Machine>.
+<MA-006422> <intend:is_machine_type> <C41>.
+<MA-006422> <intend:has_IP> <192.168.6.001>.
+
+<MA-006072> <schema:name> "MA-006072".
+<MA-006072> <rdf:type> <intend:Active_Machine>.
+<MA-006072> <intend:is_machine_type> <F>.
+<MA-006072> <intend:has_IP> <192.168.6.002>.
+
+<Prod Data> <rdf:type> <intend:Service>.
+<Machine State> <rdf:type> <intend:Service>.
+<Energy Tracker> <rdf:type> <intend:Service>.
+<KPI Analyzer> <rdf:type> <intend:Service>.
+<Alarm Analyzer> <rdf:type> <intend:Service>.
+<Data Xplorer> <rdf:type> <intend:Service>.
+<Program History> <rdf:type> <intend:Service>.
+<G-Code Analyzer> <rdf:type> <intend:Service>.
+<Thermo Stability> <rdf:type> <intend:Service>.
+<Tool Performance> <rdf:type> <intend:Service>.
+<Logbook> <rdf:type> <intend:Service>.
+<Fingerprint> <rdf:type> <intend:Service>.
+
+<Prod Data> <schema:name> "Prod Data".
+<Machine State> <schema:name> "Machine State".
+<Energy Tracker> <schema:name> "Energy Tracker".
+<KPI Analyzer> <schema:name> "KPI Analyzer".
+<Alarm Analyzer> <schema:name> "Alarm Analyzer".
+<Data Xplorer> <schema:name> "Data Xplorer".
+<Program History> <schema:name> "Program History".
+<G-Code Analyzer> <schema:name> "G-Code Analyzer".
+<Thermo Stability> <schema:name> "Thermo Stability".
+<Tool Performance> <schema:name> "Tool Performance".
+<Logbook> <schema:name> "Logbook".
+<Fingerprint> <schema:name> "Fingerprint".
+
+<C21 Gen2> <rdf:type> <intend:Machine>.
+<C22 Gen2> <rdf:type> <intend:Machine>.
+<C21 Gen3> <rdf:type> <intend:Machine>.
+<C22 Gen3> <rdf:type> <intend:Machine>.
+<C41 Gen3> <rdf:type> <intend:Machine>.
+<Q Gen 2> <rdf:type> <intend:Machine>.
+<D Gen 2> <rdf:type> <intend:Machine>.
+
+<C21 Gen2> <schema:name> "C21 Gen2".
+<C22 Gen2> <schema:name> "C22 Gen2".
+<C21 Gen3> <schema:name> "C21 Gen3".
+<C22 Gen3> <schema:name> "C22 Gen3".
+<C41 Gen3> <schema:name> "C41 Gen3".
+<Q Gen 2> <schema:name> "Q Gen 2".
+<D Gen 2> <schema:name> "D Gen 2".
+
+<C21 Gen2> <intend:hasService> <Prod Data>.
+<C22 Gen2> <intend:hasService> <Prod Data>.
+<C21 Gen3> <intend:hasService> <Prod Data>.
+<C41 Gen3> <intend:hasService> <Prod Data>.
+<Q Gen 2> <intend:hasService> <Prod Data>.
+<D Gen 2> <intend:hasService> <Prod Data>.
+<C21 Gen2> <intend:hasService> <Machine State>.
+<C22 Gen2> <intend:hasService> <Machine State>.
+<C21 Gen3> <intend:hasService> <Machine State>.
+<C22 Gen3> <intend:hasService> <Machine State>.
+<C41 Gen3> <intend:hasService> <Machine State>.
+<Q Gen 2> <intend:hasService> <Machine State>.
+<D Gen 2> <intend:hasService> <Machine State>.
+<C21 Gen2> <intend:hasService> <Energy Tracker>.
+<C22 Gen2> <intend:hasService> <Energy Tracker>.
+<C21 Gen3> <intend:hasService> <Energy Tracker>.
+<C22 Gen3> <intend:hasService> <Energy Tracker>.
+<C41 Gen3> <intend:hasService> <Energy Tracker>.
+<Q Gen 2> <intend:hasService> <Energy Tracker>.
+<D Gen 2> <intend:hasService> <Energy Tracker>.
+<C21 Gen2> <intend:hasService> <KPI Analyzer>.
+<C22 Gen2> <intend:hasService> <KPI Analyzer>.
+<C21 Gen3> <intend:hasService> <KPI Analyzer>.
+<C22 Gen3> <intend:hasService> <KPI Analyzer>.
+<C41 Gen3> <intend:hasService> <KPI Analyzer>.
+<Q Gen 2> <intend:hasService> <KPI Analyzer>.
+<D Gen 2> <intend:hasService> <KPI Analyzer>.
+<C21 Gen2> <intend:hasService> <Alarm Analyzer>.
+<C22 Gen2> <intend:hasService> <Alarm Analyzer>.
+<C21 Gen3> <intend:hasService> <Alarm Analyzer>.
+<Q Gen 2> <intend:hasService> <Alarm Analyzer>.
+<D Gen 2> <intend:hasService> <Alarm Analyzer>.
+<C21 Gen2> <intend:hasService> <Data Xplorer>.
+<C22 Gen2> <intend:hasService> <Data Xplorer>.
+<Q Gen 2> <intend:hasService> <Data Xplorer>.
+<D Gen 2> <intend:hasService> <Data Xplorer>.
+<C21 Gen2> <intend:hasService> <Program History>.
+<C22 Gen2> <intend:hasService> <Program History>.
+<Q Gen 2> <intend:hasService> <Program History>.
+<D Gen 2> <intend:hasService> <Program History>.
+<C21 Gen2> <intend:hasService> <G-Code Analyzer>.
+<C22 Gen3> <intend:hasService> <G-Code Analyzer>.
+<D Gen 2> <intend:hasService> <G-Code Analyzer>.
+<C21 Gen2> <intend:hasService> <Thermo Stability>.
+<C22 Gen3> <intend:hasService> <Thermo Stability>.
+<C41 Gen3> <intend:hasService> <Thermo Stability>.
+<C21 Gen2> <intend:hasService> <Tool Performance>.
+<C22 Gen2> <intend:hasService> <Tool Performance>.
+<C22 Gen3> <intend:hasService> <Tool Performance>.
+<Q Gen 2> <intend:hasService> <Tool Performance>.
+<D Gen 2> <intend:hasService> <Tool Performance>.
+<C21 Gen2> <intend:hasService> <Logbook>.
+<C22 Gen2> <intend:hasService> <Logbook>.
+<C21 Gen3> <intend:hasService> <Logbook>.
+<D Gen 2> <intend:hasService> <Logbook>.
+<C21 Gen2> <intend:hasService> <Fingerprint>.
+<C22 Gen2> <intend:hasService> <Fingerprint>.
+<C22 Gen3> <intend:hasService> <Fingerprint>.
+
+<Part> <rdf:type> <intend:Component>.
+<ToolUsage> <rdf:type> <intend:Component>.
+<ToolKit> <rdf:type> <intend:Component>.
+<TrackChanges> <rdf:type> <intend:Component>.
+<MediaConsumption> <rdf:type> <intend:Component>.
+<Alarms> <rdf:type> <intend:Component>.
+<SFTP-Monitor> <rdf:type> <intend:Component>.
+<Fingerprint> <rdf:type> <intend:Component>.
+<BrokerToMongoDB> <rdf:type> <intend:Component>.
+<GCodeOptimizer> <rdf:type> <intend:Component>.
+<Models> <rdf:type> <intend:Component>.
+<ToolAggregation> <rdf:type> <intend:Component>.
+<ToolWear> <rdf:type> <intend:Component>.
+
+<Part> <schema:name> "Part".
+<ToolUsage> <schema:name> "ToolUsage".
+<ToolKit> <schema:name> "ToolKit".
+<TrackChanges> <schema:name> "TrackChanges".
+<MediaConsumption> <schema:name> "MediaConsumption".
+<Alarms> <schema:name> "Alarms".
+<SFTP-Monitor> <schema:name> "SFTP-Monitor".
+<Fingerprint> <schema:name> "Fingerprint".
+<BrokerToMongoDB> <schema:name> "BrokerToMongoDB".
+<GCodeOptimizer> <schema:name> "GCodeOptimizer".
+<Models> <schema:name> "Models".
+<ToolAggregation> <schema:name> "ToolAggregation".
+<ToolWear> <schema:name> "ToolWear".
+
+<Prod Data> <intend:hasComponent> <Part>.
+<Prod Data> <intend:hasComponent> <ToolUsage>.
+<Prod Data> <intend:hasComponent> <ToolKit>.
+<Prod Data> <intend:hasComponent> <Alarms>.
+<Prod Data> <intend:hasComponent> <SFTP-Monitor>.
+<Prod Data> <intend:hasComponent> <ToolAggregation>.
+<Machine State> <intend:hasComponent> <TrackChanges>.
+<Energy Tracker> <intend:hasComponent> <Part>.
+<Energy Tracker> <intend:hasComponent> <TrackChanges>.
+<Energy Tracker> <intend:hasComponent> <MediaConsumption>.
+<KPI Analyzer> <intend:hasComponent> <Part>.
+<KPI Analyzer> <intend:hasComponent> <TrackChanges>.
+<Alarm Analyzer> <intend:hasComponent> <Alarms>.
+<Program History> <intend:hasComponent> <Part>.
+<Program History> <intend:hasComponent> <ToolUsage>.
+<Program History> <intend:hasComponent> <ToolKit>.
+<Program History> <intend:hasComponent> <SFTP-Monitor>.
+<G-Code Analyzer> <intend:hasComponent> <GCodeOptimizer>.
+<G-Code Analyzer> <intend:hasComponent> <Models>.
+<Tool Performance> <intend:hasComponent> <ToolUsage>.
+<Tool Performance> <intend:hasComponent> <ToolKit>.
+<Tool Performance> <intend:hasComponent> <ToolWear>.
+<Logbook> <intend:hasComponent> <TrackChanges>.
+<Logbook> <intend:hasComponent> <SFTP-Monitor>.
+<Logbook> <intend:hasComponent> <Fingerprint>.
+<Logbook> <intend:hasComponent> <BrokerToMongoDB>.
+<Fingerprint> <intend:hasComponent> <Fingerprint>.
+<Fingerprint> <intend:hasComponent> <BrokerToMongoDB>.
+
+<analyse_part_p1> <rdf:type> <intend:Container>.
+<analyse_part_p2> <rdf:type> <intend:Container>.
+<analyse_part_p3> <rdf:type> <intend:Container>.
+<analyse_part_p4> <rdf:type> <intend:Container>.
+<analyse_part_merge> <rdf:type> <intend:Container>.
+<analyse_part_p1_s2> <rdf:type> <intend:Container>.
+<analyse_part_p2_s2> <rdf:type> <intend:Container>.
+<analyse_part_p3_s2> <rdf:type> <intend:Container>.
+<analyse_part_p4_s2> <rdf:type> <intend:Container>.
+<analyse_part_merge_side2> <rdf:type> <intend:Container>.
+<analyse_toolusage_sp1> <rdf:type> <intend:Container>.
+<analyse_toolusage_sp2> <rdf:type> <intend:Container>.
+<analyse_toolusage_sp3> <rdf:type> <intend:Container>.
+<analyse_toolusage_sp4> <rdf:type> <intend:Container>.
+<analyse_toolusage_sp1_s2> <rdf:type> <intend:Container>.
+<analyse_toolusgae_sp2_s2> <rdf:type> <intend:Container>.
+<analyse_toolkit> <rdf:type> <intend:Container>.
+<analyse_toolkit_toa2> <rdf:type> <intend:Container>.
+<analyse_toolaggregation> <rdf:type> <intend:Container>.
+<analyse_toolaggregation_side2> <rdf:type> <intend:Container>.
+<analyse_toolwear> <rdf:type> <intend:Container>.
+<analyse_toolwear_s2> <rdf:type> <intend:Container>.
+<analyse_trackchanges> <rdf:type> <intend:Container>.
+<analyse_trackchanges_side2> <rdf:type> <intend:Container>.
+<analyse_media_consumption_energy> <rdf:type> <intend:Container>.
+<analyse_media_consumption_energy_s2> <rdf:type> <intend:Container>.
+<analyse_media_consumption_pneumatic> <rdf:type> <intend:Container>.
+<analyse_media_consumption_pneumatic_s2> <rdf:type> <intend:Container>.
+<analyse_alarms> <rdf:type> <intend:Container>.
+<SFTP-Monitor> <rdf:type> <intend:Container>.
+<analyse_gcodeoptimizer_collectsp1> <rdf:type> <intend:Container>.
+<analyse_gcodeoptimizer_collectsp2> <rdf:type> <intend:Container>.
+<analyse_gcodeoptimizer_idledistances> <rdf:type> <intend:Container>.
+<analyse_gcodeoptimizer_ordering> <rdf:type> <intend:Container>.
+<analyse_gcodeoptimizer_collectsp1_s2> <rdf:type> <intend:Container>.
+<analyse_gcodeoptimizer_collectsp2_s2> <rdf:type> <intend:Container>.
+<analyse_gcodeoptimizer_idledistances_s2> <rdf:type> <intend:Container>.
+<analyse_gcodeoptimizer_ordering_s2> <rdf:type> <intend:Container>.
+<analyse_models> <rdf:type> <intend:Container>.
+<FingerprintGenerateConfig> <rdf:type> <intend:Container>.
+<FingerprintCalculate> <rdf:type> <intend:Container>.
+<analyse_warmup> <rdf:type> <intend:Container>.
+
+<analyse_part_p1> <schema:name> "analyse_part_p1".
+<analyse_part_p2> <schema:name> "analyse_part_p2".
+<analyse_part_p3> <schema:name> "analyse_part_p3".
+<analyse_part_p4> <schema:name> "analyse_part_p4".
+<analyse_part_merge> <schema:name> "analyse_part_merge".
+<analyse_part_p1_s2> <schema:name> "analyse_part_p1_s2".
+<analyse_part_p2_s2> <schema:name> "analyse_part_p2_s2".
+<analyse_part_p3_s2> <schema:name> "analyse_part_p3_s2".
+<analyse_part_p4_s2> <schema:name> "analyse_part_p4_s2".
+<analyse_part_merge_side2> <schema:name> "analyse_part_merge_side2".
+<analyse_toolusage_sp1> <schema:name> "analyse_toolusage_sp1".
+<analyse_toolusage_sp2> <schema:name> "analyse_toolusage_sp2".
+<analyse_toolusage_sp3> <schema:name> "analyse_toolusage_sp3".
+<analyse_toolusage_sp4> <schema:name> "analyse_toolusage_sp4".
+<analyse_toolusage_sp1_s2> <schema:name> "analyse_toolusage_sp1_s2".
+<analyse_toolusgae_sp2_s2> <schema:name> "analyse_toolusgae_sp2_s2".
+<analyse_toolkit> <schema:name> "analyse_toolkit".
+<analyse_toolkit_toa2> <schema:name> "analyse_toolkit_toa2".
+<analyse_toolaggregation> <schema:name> "analyse_toolaggregation".
+<analyse_toolaggregation_side2> <schema:name> "analyse_toolaggregation_side2".
+<analyse_toolwear> <schema:name> "analyse_toolwear".
+<analyse_toolwear_s2> <schema:name> "analyse_toolwear_s2".
+<analyse_trackchanges> <schema:name> "analyse_trackchanges".
+<analyse_trackchanges_side2> <schema:name> "analyse_trackchanges_side2".
+<analyse_media_consumption_energy> <schema:name> "analyse_media_consumption_energy".
+<analyse_media_consumption_energy_s2> <schema:name> "analyse_media_consumption_energy_s2".
+<analyse_media_consumption_pneumatic> <schema:name> "analyse_media_consumption_pneumatic".
+<analyse_media_consumption_pneumatic_s2> <schema:name> "analyse_media_consumption_pneumatic_s2".
+<analyse_alarms> <schema:name> "analyse_alarms".
+<SFTP-Monitor> <schema:name> "SFTP-Monitor".
+<analyse_gcodeoptimizer_collectsp1> <schema:name> "analyse_gcodeoptimizer_collectsp1".
+<analyse_gcodeoptimizer_collectsp2> <schema:name> "analyse_gcodeoptimizer_collectsp2".
+<analyse_gcodeoptimizer_idledistances> <schema:name> "analyse_gcodeoptimizer_idledistances".
+<analyse_gcodeoptimizer_ordering> <schema:name> "analyse_gcodeoptimizer_ordering".
+<analyse_gcodeoptimizer_collectsp1_s2> <schema:name> "analyse_gcodeoptimizer_collectsp1_s2".
+<analyse_gcodeoptimizer_collectsp2_s2> <schema:name> "analyse_gcodeoptimizer_collectsp2_s2".
+<analyse_gcodeoptimizer_idledistances_s2> <schema:name> "analyse_gcodeoptimizer_idledistances_s2".
+<analyse_gcodeoptimizer_ordering_s2> <schema:name> "analyse_gcodeoptimizer_ordering_s2".
+<analyse_models> <schema:name> "analyse_models".
+<FingerprintGenerateConfig> <schema:name> "FingerprintGenerateConfig".
+<FingerprintCalculate> <schema:name> "FingerprintCalculate".
+<analyse_warmup> <schema:name> "analyse_warmup".
+
+<Part> <intend:hasContainer> <analyse_part_p1>.
+<analyse_part_p1> <intend:isContainerOf> <Part>.
+<Part> <intend:hasContainer> <analyse_part_p2>.
+<analyse_part_p2> <intend:isContainerOf> <Part>.
+<Part> <intend:hasContainer> <analyse_part_p3>.
+<analyse_part_p3> <intend:isContainerOf> <Part>.
+<Part> <intend:hasContainer> <analyse_part_p4>.
+<analyse_part_p4> <intend:isContainerOf> <Part>.
+<Part> <intend:hasContainer> <analyse_part_merge>.
+<analyse_part_merge> <intend:isContainerOf> <Part>.
+<Part> <intend:hasContainer> <analyse_part_p1_s2>.
+<analyse_part_p1_s2> <intend:isContainerOf> <Part>.
+<Part> <intend:hasContainer> <analyse_part_p2_s2>.
+<analyse_part_p2_s2> <intend:isContainerOf> <Part>.
+<Part> <intend:hasContainer> <analyse_part_p3_s2>.
+<analyse_part_p3_s2> <intend:isContainerOf> <Part>.
+<Part> <intend:hasContainer> <analyse_part_p4_s2>.
+<analyse_part_p4_s2> <intend:isContainerOf> <Part>.
+<Part> <intend:hasContainer> <analyse_part_merge_side2>.
+<analyse_part_merge_side2> <intend:isContainerOf> <Part>.
+<ToolUsage> <intend:hasContainer> <analyse_toolusage_sp1>.
+<analyse_toolusage_sp1> <intend:isContainerOf> <ToolUsage>.
+<ToolUsage> <intend:hasContainer> <analyse_toolusage_sp2>.
+<analyse_toolusage_sp2> <intend:isContainerOf> <ToolUsage>.
+<ToolUsage> <intend:hasContainer> <analyse_toolusage_sp3>.
+<analyse_toolusage_sp3> <intend:isContainerOf> <ToolUsage>.
+<ToolUsage> <intend:hasContainer> <analyse_toolusage_sp4>.
+<analyse_toolusage_sp4> <intend:isContainerOf> <ToolUsage>.
+<ToolUsage> <intend:hasContainer> <analyse_toolusage_sp1_s2>.
+<analyse_toolusage_sp1_s2> <intend:isContainerOf> <ToolUsage>.
+<ToolUsage> <intend:hasContainer> <analyse_toolusgae_sp2_s2>.
+<analyse_toolusgae_sp2_s2> <intend:isContainerOf> <ToolUsage>.
+<ToolKit> <intend:hasContainer> <analyse_toolkit>.
+<analyse_toolkit> <intend:isContainerOf> <ToolKit>.
+<ToolKit> <intend:hasContainer> <analyse_toolkit_toa2>.
+<analyse_toolkit_toa2> <intend:isContainerOf> <ToolKit>.
+<ToolAggregation> <intend:hasContainer> <analyse_toolaggregation>.
+<analyse_toolaggregation> <intend:isContainerOf> <ToolAggregation>.
+<ToolAggregation> <intend:hasContainer> <analyse_toolaggregation_side2>.
+<analyse_toolaggregation_side2> <intend:isContainerOf> <ToolAggregation>.
+<ToolWear> <intend:hasContainer> <analyse_toolwear>.
+<analyse_toolwear> <intend:isContainerOf> <ToolWear>.
+<ToolWear> <intend:hasContainer> <analyse_toolwear_s2>.
+<analyse_toolwear_s2> <intend:isContainerOf> <ToolWear>.
+<TrackChanges> <intend:hasContainer> <analyse_trackchanges>.
+<analyse_trackchanges> <intend:isContainerOf> <TrackChanges>.
+<TrackChanges> <intend:hasContainer> <analyse_trackchanges_side2>.
+<analyse_trackchanges_side2> <intend:isContainerOf> <TrackChanges>.
+<MediaConsumption> <intend:hasContainer> <analyse_media_consumption_energy>.
+<analyse_media_consumption_energy> <intend:isContainerOf> <MediaConsumption>.
+<MediaConsumption> <intend:hasContainer> <analyse_media_consumption_energy_s2>.
+<analyse_media_consumption_energy_s2> <intend:isContainerOf> <MediaConsumption>.
+<MediaConsumption> <intend:hasContainer> <analyse_media_consumption_pneumatic>.
+<analyse_media_consumption_pneumatic> <intend:isContainerOf> <MediaConsumption>.
+<MediaConsumption> <intend:hasContainer> <analyse_media_consumption_pneumatic_s2>.
+<analyse_media_consumption_pneumatic_s2> <intend:isContainerOf> <MediaConsumption>.
+<Alarms> <intend:hasContainer> <analyse_alarms>.
+<analyse_alarms> <intend:isContainerOf> <Alarms>.
+<SFTP-Monitor> <intend:hasContainer> <SFTP-Monitor>.
+<SFTP-Monitor> <intend:isContainerOf> <SFTP-Monitor>.
+<GCodeOptimizer> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp1>.
+<analyse_gcodeoptimizer_collectsp1> <intend:isContainerOf> <GCodeOptimizer>.
+<GCodeOptimizer> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp2>.
+<analyse_gcodeoptimizer_collectsp2> <intend:isContainerOf> <GCodeOptimizer>.
+<GCodeOptimizer> <intend:hasContainer> <analyse_gcodeoptimizer_idledistances>.
+<analyse_gcodeoptimizer_idledistances> <intend:isContainerOf> <GCodeOptimizer>.
+<GCodeOptimizer> <intend:hasContainer> <analyse_gcodeoptimizer_ordering>.
+<analyse_gcodeoptimizer_ordering> <intend:isContainerOf> <GCodeOptimizer>.
+<GCodeOptimizer> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp1_s2>.
+<analyse_gcodeoptimizer_collectsp1_s2> <intend:isContainerOf> <GCodeOptimizer>.
+<GCodeOptimizer> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp2_s2>.
+<analyse_gcodeoptimizer_collectsp2_s2> <intend:isContainerOf> <GCodeOptimizer>.
+<GCodeOptimizer> <intend:hasContainer> <analyse_gcodeoptimizer_idledistances_s2>.
+<analyse_gcodeoptimizer_idledistances_s2> <intend:isContainerOf> <GCodeOptimizer>.
+<GCodeOptimizer> <intend:hasContainer> <analyse_gcodeoptimizer_ordering_s2>.
+<analyse_gcodeoptimizer_ordering_s2> <intend:isContainerOf> <GCodeOptimizer>.
+<Models> <intend:hasContainer> <analyse_models>.
+<analyse_models> <intend:isContainerOf> <Models>.
+<Fingerprint> <intend:hasContainer> <FingerprintGenerateConfig>.
+<FingerprintGenerateConfig> <intend:isContainerOf> <Fingerprint>.
+<Fingerprint> <intend:hasContainer> <FingerprintCalculate>.
+<FingerprintCalculate> <intend:isContainerOf> <Fingerprint>.
+<ThermoStability> <intend:hasContainer> <analyse_warmup>.
+<analyse_warmup> <intend:isContainerOf> <ThermoStability>.
+
+<analyse_part_p1> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_part_p1>.
+<analyse_part_p1> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_part_p1>.
+<analyse_part_p1> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_part_p1>.
+<analyse_part_p1> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_part_p1>.
+<analyse_part_p1> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_part_p1>.
+<analyse_part_p2> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_part_p2>.
+<analyse_part_p2> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_part_p2>.
+<analyse_part_p2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_part_p2>.
+<analyse_part_p2> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_part_p2>.
+<analyse_part_p3> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_part_p3>.
+<analyse_part_p3> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_part_p3>.
+<analyse_part_p4> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_part_p4>.
+<analyse_part_p4> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_part_p4>.
+<analyse_part_merge> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_part_merge>.
+<analyse_part_merge> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_part_merge>.
+<analyse_part_merge> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_part_merge>.
+<analyse_part_merge> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_part_merge>.
+<analyse_part_merge> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_part_merge>.
+<analyse_part_p1_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_part_p1_s2>.
+<analyse_part_p1_s2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_part_p1_s2>.
+<analyse_part_p2_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_part_p2_s2>.
+<analyse_part_merge_side2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_part_merge_side2>.
+<analyse_part_merge_side2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_part_merge_side2>.
+<analyse_toolusage_sp1> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_toolusage_sp1>.
+<analyse_toolusage_sp1> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_toolusage_sp1>.
+<analyse_toolusage_sp1> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_toolusage_sp1>.
+<analyse_toolusage_sp1> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_toolusage_sp1>.
+<analyse_toolusage_sp1> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_toolusage_sp1>.
+<analyse_toolusage_sp2> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_toolusage_sp2>.
+<analyse_toolusage_sp2> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_toolusage_sp2>.
+<analyse_toolusage_sp2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_toolusage_sp2>.
+<analyse_toolusage_sp2> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_toolusage_sp2>.
+<analyse_toolusage_sp3> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_toolusage_sp3>.
+<analyse_toolusage_sp4> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_toolusage_sp4>.
+<analyse_toolusage_sp1_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_toolusage_sp1_s2>.
+<analyse_toolusage_sp1_s2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_toolusage_sp1_s2>.
+<analyse_toolusgae_sp2_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_toolusgae_sp2_s2>.
+<analyse_toolkit> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_toolkit>.
+<analyse_toolkit> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_toolkit>.
+<analyse_toolkit> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_toolkit>.
+<analyse_toolkit> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_toolkit>.
+<analyse_toolkit> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_toolkit>.
+<analyse_toolkit_toa2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_toolkit_toa2>.
+<analyse_toolkit_toa2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_toolkit_toa2>.
+<analyse_toolaggregation> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_toolaggregation>.
+<analyse_toolaggregation> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_toolaggregation>.
+<analyse_toolaggregation> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_toolaggregation>.
+<analyse_toolaggregation> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_toolaggregation>.
+<analyse_toolaggregation> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_toolaggregation>.
+<analyse_toolaggregation_side2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_toolaggregation_side2>.
+<analyse_toolaggregation_side2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_toolaggregation_side2>.
+<analyse_toolwear> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_toolwear>.
+<analyse_toolwear> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_toolwear>.
+<analyse_toolwear> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_toolwear>.
+<analyse_toolwear> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_toolwear>.
+<analyse_toolwear> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_toolwear>.
+<analyse_toolwear_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_toolwear_s2>.
+<analyse_toolwear_s2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_toolwear_s2>.
+<analyse_trackchanges> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_trackchanges>.
+<analyse_trackchanges> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_trackchanges>.
+<analyse_trackchanges> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_trackchanges>.
+<analyse_trackchanges> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_trackchanges>.
+<analyse_trackchanges> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_trackchanges>.
+<analyse_trackchanges_side2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_trackchanges_side2>.
+<analyse_trackchanges_side2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_trackchanges_side2>.
+<analyse_media_consumption_energy> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_media_consumption_energy>.
+<analyse_media_consumption_energy> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_media_consumption_energy>.
+<analyse_media_consumption_energy> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_media_consumption_energy>.
+<analyse_media_consumption_energy> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_media_consumption_energy>.
+<analyse_media_consumption_energy> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_media_consumption_energy>.
+<analyse_media_consumption_energy_s2> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_media_consumption_energy_s2>.
+<analyse_media_consumption_energy_s2> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_media_consumption_energy_s2>.
+<analyse_media_consumption_energy_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_media_consumption_energy_s2>.
+<analyse_media_consumption_energy_s2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_media_consumption_energy_s2>.
+<analyse_media_consumption_pneumatic> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_media_consumption_pneumatic>.
+<analyse_media_consumption_pneumatic> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_media_consumption_pneumatic>.
+<analyse_media_consumption_pneumatic> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_media_consumption_pneumatic>.
+<analyse_media_consumption_pneumatic_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_media_consumption_pneumatic_s2>.
+<analyse_media_consumption_pneumatic_s2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_media_consumption_pneumatic_s2>.
+<analyse_alarms> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_alarms>.
+<analyse_alarms> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_alarms>.
+<analyse_alarms> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_alarms>.
+<analyse_alarms> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_alarms>.
+<analyse_alarms> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_alarms>.
+<SFTP-Monitor> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <SFTP-Monitor>.
+<SFTP-Monitor> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <SFTP-Monitor>.
+<SFTP-Monitor> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <SFTP-Monitor>.
+<SFTP-Monitor> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <SFTP-Monitor>.
+<SFTP-Monitor> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <SFTP-Monitor>.
+<analyse_gcodeoptimizer_collectsp1> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp1>.
+<analyse_gcodeoptimizer_collectsp1> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp1>.
+<analyse_gcodeoptimizer_collectsp1> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp1>.
+<analyse_gcodeoptimizer_collectsp1> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp1>.
+<analyse_gcodeoptimizer_collectsp2> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp2>.
+<analyse_gcodeoptimizer_collectsp2> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp2>.
+<analyse_gcodeoptimizer_collectsp2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp2>.
+<analyse_gcodeoptimizer_idledistances> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_gcodeoptimizer_idledistances>.
+<analyse_gcodeoptimizer_idledistances> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_gcodeoptimizer_idledistances>.
+<analyse_gcodeoptimizer_idledistances> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_gcodeoptimizer_idledistances>.
+<analyse_gcodeoptimizer_idledistances> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_gcodeoptimizer_idledistances>.
+<analyse_gcodeoptimizer_ordering> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_gcodeoptimizer_ordering>.
+<analyse_gcodeoptimizer_ordering> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_gcodeoptimizer_ordering>.
+<analyse_gcodeoptimizer_ordering> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_gcodeoptimizer_ordering>.
+<analyse_gcodeoptimizer_ordering> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_gcodeoptimizer_ordering>.
+<analyse_gcodeoptimizer_collectsp1_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp1_s2>.
+<analyse_gcodeoptimizer_collectsp1_s2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp1_s2>.
+<analyse_gcodeoptimizer_collectsp2_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_gcodeoptimizer_collectsp2_s2>.
+<analyse_gcodeoptimizer_idledistances_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_gcodeoptimizer_idledistances_s2>.
+<analyse_gcodeoptimizer_idledistances_s2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_gcodeoptimizer_idledistances_s2>.
+<analyse_gcodeoptimizer_ordering_s2> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_gcodeoptimizer_ordering_s2>.
+<analyse_gcodeoptimizer_ordering_s2> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_gcodeoptimizer_ordering_s2>.
+<analyse_models> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_models>.
+<analyse_models> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_models>.
+<analyse_models> <intend:canBeDeployedOn> <SyQ>.
+<SyQ> <intend:hasContainer> <analyse_models>.
+<analyse_models> <intend:canBeDeployedOn> <SyD>.
+<SyD> <intend:hasContainer> <analyse_models>.
+<FingerprintGenerateConfig> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <FingerprintGenerateConfig>.
+<FingerprintGenerateConfig> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <FingerprintGenerateConfig>.
+<FingerprintCalculate> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <FingerprintCalculate>.
+<FingerprintCalculate> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <FingerprintCalculate>.
+<analyse_warmup> <intend:canBeDeployedOn> <SyC21>.
+<SyC21> <intend:hasContainer> <analyse_warmup>.
+<analyse_warmup> <intend:canBeDeployedOn> <SyC22>.
+<SyC22> <intend:hasContainer> <analyse_warmup>.
+<analyse_warmup> <intend:canBeDeployedOn> <SyC41>.
+<SyC41> <intend:hasContainer> <analyse_warmup>.
+
+<Prod Data> <intend:description> <PROD DATA records all components and the process steps are analyzed. Occurred messages and the tool usage of each component are displayed and provide transparency in the production data.>.
+<Machine State> <intend:description> <MACHINE STATE provides an overview of your production. The machine status can be called up at any time, allowing workflows to be optimized.>.
+<Energy Tracker> <intend:description> <ENERGY TRACKER monitors media consumption and ensures early detection of production changes and leaks that might otherwise go undetected.>.
+<KPI Analyzer> <intend:description> <KPI ANALYZER provides information on the utilization of a machine in a defined period. The analysis provides insights into utilization and efficiency and identifies any bottlenecks or optimization potential.>.
+<Alarm Analyzer> <intend:description> <ALARM ANALYZER records all alarms and messages and identifies the main messages. Actual machine problems can thus be identified.>.
+<Data Xplorer> <intend:description> <DATA XPLORER allows manual analysis of all recorded data. Any questions can thus be clarified independently.>.
+<Program History> <intend:description> <PROGRAM HISTORY automatically records every NC program change. The possibility of analysis and tracking provides more transparency and control.>.
+<G-Code Analyzer> <intend:description> <G-CODE ANALYZER analyzes the G-code of all components. Optimization potential is suggested to effectively reduce cycle time.>.
+<Thermo Stability> <intend:description> <THERMO STABILITY detects the constant temperature range for efficient production. This saves time and reduces scrap due to a shorter warm-up phase.>.
+<Tool Performance> <intend:description> <TOOL PERFORMANCE analyzes tool wear. You can determine the condition when replacing tools or compare wear among tools of the same type.>.
+<Logbook> <intend:description> <LOGBOOK logs component changes of motors, spindles and ball screws. In addition, every machine crash is recorded, including the program run.>.
+<Fingerprint> <intend:description> <Test runs generate the specific machine performance indicator. This allows you to detect changes over time and check successful installation after component replacement.>.

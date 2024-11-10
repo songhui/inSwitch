@@ -1,0 +1,12 @@
+{
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "devcontainer",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "forwardPorts": [8888],
+    "customizations": {
+        "extensions": ["ms-python.python", "ms-toolsai.jupyter"],
+        "settings": {
+            "python.defaultInterpreterPath": "/opt/conda/bin/python"
+        }
+    }
+}
