@@ -10,12 +10,12 @@ def get_chat_agent(name: str, system_message = "you are a helpful assistant")->C
         code_execution_config=False,  # Turn off code execution for this agent.
     )
 
-def get_fixed_reply_agent(name: str, reply: str)->ConversableAgent:
+def get_fixed_reply_agent(name: str, reply: str) -> ConversableAgent:
     return ConversableAgent(
         name,
-        llm_config = None, 
+        llm_config = False, 
         default_auto_reply = reply,
-        code_execution_config = None,
+        code_execution_config = False,
         human_input_mode = 'NEVER'
     )
 
