@@ -17,3 +17,9 @@ You need a valid token for OpenAI API, stored in ./openai.credential. Other LLM 
 Most of the running examples and demos are in Jupyter Notebooks. To run them, you need to select a kernal - choose a python environment called "base (Python 3.12.7)". The version may vary. It is the under path "/opt/conda/bin/python".
 
 If you face problem running python scripts, you may also try to select this same "base" python as the Python Interpreter (this can be done also via cmd+shift+p).
+
+# Use cases
+All the use cases can be found in [usecase](./usecases/). Four each use case, there is a README.md file for further information.
+
+# First taste
+So far, we have one simplified example running. You can check the snapshot [here](./usecases/fill/doc/snapshots/Step1-simplied-doc-api-call-2024-11-15.ipynb)
