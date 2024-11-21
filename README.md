@@ -1,5 +1,7 @@
 # inSwitch
-LLM agents for cognitive computing continuum
+**Deprecated**. New repository is moved to: [https://github.com/INTEND-Project/inSwitch]
+LLM agents for cognitive computing continuum. 
+
 
 # Install
 We recommend using [VS Code + devcontainer](https://code.visualstudio.com/docs/devcontainers/containers). You need to install the devcontainers extension to VS Code. After that, when you open this workspace in Code, there will be a pop-up window asking if you want to re-open it in devcontainer. If you missed it, use cmd+shift+p, and select 
