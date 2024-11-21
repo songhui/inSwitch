@@ -28,3 +28,19 @@ workloads:
 ```
 
 A execution snapshot can be found [here](doc/snapshots/Step1-simplied-doc-api-call-2024-11-15.ipynb).
+
+# Step 2:
+Slightly more abstract intent:
+
+```I am Customer1. 
+I want to add a new service to my machine to record all the alarms```
+
+Same output as Step 1.
+
+Snapshot [here](doc/snapshots/Step2-simplified-knowledge-dock-api-call-24-11-17.ipynb)
+
+# Todo list:
+
+
+
+

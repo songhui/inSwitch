@@ -23,3 +23,5 @@ All the use cases can be found in [usecase](./usecases/). Four each use case, th
 
 # First taste
 So far, we have one simplified example running. You can check the snapshot [here](./usecases/fill/doc/snapshots/Step1-simplied-doc-api-call-2024-11-15.ipynb)
+
+# Development plan
